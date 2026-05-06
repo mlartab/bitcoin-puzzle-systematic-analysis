@@ -69,7 +69,8 @@ Here is every tool in this repo, and what it does.
 
 Keyhunt has several modes. The most important one for my hunt was **rmd160 mode**:
 
-```bash
+//bash --
+
 ./keyhunt -m rmd160 -f target71_rmd.txt -b 71 -l compress -R -t 8 -e
 
 Here's what each flag means:
