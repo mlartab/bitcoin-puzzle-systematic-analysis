@@ -173,7 +173,9 @@ Elliptic curve math	Understanding endomorphisms, GLV optimization
 Cryptographic humility	Some problems are designed to be unsolvable
 Repository Structure
 text
-bitcoin-puzzle-systematic-analysis/
+'''bash
+//bitcoin-puzzle-systematic-analysis/
+----------------------------------------------------------------------------------
 │
 ├── README.md              ← You are here
 ├── LICENSE                ← MIT
@@ -201,6 +203,7 @@ bitcoin-puzzle-systematic-analysis/
 │
 └── docs/                  ← Documentation
     └── CLAIMING.md
+  ---------------------------------------------------------------------  
 How to Run the Tools
 Python Scripts
 bash
