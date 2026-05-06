@@ -7,3 +7,28 @@ __pycache__/
 observed.txt
 *.work
 rockyou.txt
+
+# Ignore compiled binaries everywhere
+**/keyhunt
+**/kangaroo
+**/mt_brute
+**/rand_brute
+**/java_crack
+**/glv_test
+
+# Ignore all *.o and obj/ folders
+*.o
+*.d
+obj/
+
+# Ignore temporary and work files
+*.work
+observed.txt
+hunt.log
+KEYFOUNDKEYFOUND.txt
+rockyou.txt
+*.txt.gz
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
